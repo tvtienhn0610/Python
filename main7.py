@@ -365,7 +365,7 @@ def pusgMeassageTotele(message):
     )
 
 startProcess()
-schedule.every(1).hours.do(startProcess)
+schedule.every(2).hours.do(startProcess)
 
 
 # schedule.every(1).minute.do(testschedule)
